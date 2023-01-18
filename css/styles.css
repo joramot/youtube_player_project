@@ -6,11 +6,17 @@ body {
   overflow-y: scroll;
 }
 
-header {
-  color: white;
-  text-align: center;
+.icon-menu {
+  width: 30px;
+  height: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
   background-color: white;
-  height: fit-content;
 }
 
 nav {
@@ -56,15 +62,14 @@ p {
   margin: 50px 0 20px 80px;
 }
 
-#uno {
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   background-color: white;
+  justify-content: center;
 }
 
-#dos {
-  background-color: white;
-}
-
-#search-boton {
+.search-boton {
   width: 100px;
   height: 36px;
   margin-left: 0;
@@ -72,12 +77,18 @@ p {
   border-right: 1%;
   border-left: 0;
   background-color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: solid lightgray;
 }
 
-#search-box {
+.search-box {
   width: 400px;
   height: 30px;
   margin-right: 0%;
   padding-right: 0%;
   border-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: solid lightgray;
 }

@@ -2,45 +2,40 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="javascript" href="">
-    <title>YouTube Video Player</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="javascript" href="">
+  <title>YouTube Video Player</title>
 </head>
 
 <body>
-    <div id="uno">
-        <img src="images/logo_youtube-1-960x640.jpg" alt="YouTube">
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Shorts</a>
-            <a href="#">Suscripciones</a>
-            <a href="#">Biblioteca</a>
-        </nav>
-        <input id="search-box" type="text" placeholder="Search">
-        <input id="search-boton" type="submit">
+  <div class="header">
+    <img class="icon-menu" src="./images/icon-menu.png" alt="icon-menu">
+    <img src="./images/logo_youtube-1-960x640.jpg" alt="YouTube">
+    <input class="search-box" type="text" placeholder="Search">
+    <input class="search-boton" type="submit" value="submit">
+  </div>
+  <div class="container">
+    <div class="iframe-bar">
+      <iframe class="iframe-bar" width="600" height="350" src="https://www.youtube.com/embed/V74l_zS1x8E"
+        title="YouTube video player" frameborder="0.5"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
-    <div id="dos">
-        <div class="iframe-bar">
-            <iframe class="iframe-bar" width="600" height="350" src="https://www.youtube.com/embed/V74l_zS1x8E"
-                title="YouTube video player" frameborder="0.5"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </div>
-        <div class="lateral-bar">
-            <img src="images/video1.jpeg" alt="imagen 1" class="lateral-img">
-            
-            <img src="images/video2.jpeg" alt="imagen 1" class="lateral-img">
+    <div class="lateral-bar">
+      <img src="images/video1.jpeg" alt="imagen 1" class="lateral-img">
 
-            <img src="images/video3.jpeg" alt="imagen 1" class="lateral-img">
+      <img src="images/video2.jpeg" alt="imagen 1" class="lateral-img">
 
-            <img src="images/video4.jpeg" alt="imagen 1" class="lateral-img">
+      <img src="images/video3.jpeg" alt="imagen 1" class="lateral-img">
 
-        </div>
-        <div></div>
+      <img src="images/video4.jpeg" alt="imagen 1" class="lateral-img">
+
     </div>
+    <div></div>
+  </div>
 </body>
 
 </html>
