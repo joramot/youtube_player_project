@@ -19,6 +19,10 @@ body {
   background-color: white;
 }
 
+.header #logo {
+  width: 150px;
+}
+
 nav {
   float: left;
   background-color: white;
@@ -27,9 +31,7 @@ nav {
 }
 
 img {
-  position: relative;
-  width: 150px;
-  height: 75px;
+  width: 200px;
 }
 
 #iframe {
@@ -40,21 +42,12 @@ img {
 }
 
 .lateral-bar {
-  float: right;
-  position: relative;
   border-color: black;
   margin: 50px 10px 20px 80px;
 }
 
 .lateral-img {
-  position: relative;
-  display: block;
-  z-index: 1;
   margin: 10px 10px 10px 0;
-}
-
-p {
-  position: absolute;
 }
 
 .iframe-bar {
@@ -63,8 +56,7 @@ p {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   background-color: white;
   justify-content: center;
 }
@@ -91,4 +83,14 @@ p {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border: solid lightgray;
+}
+
+.box {
+  display: flex;
+  gap: 1rem;
+}
+
+.box p {
+  font-size: 1rem;
+  font-weight: 500;
 }
