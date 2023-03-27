@@ -44,6 +44,7 @@ img {
 .lateral-bar {
   border-color: black;
   margin: 50px 10px 20px 80px;
+  float: right;
 }
 
 .lateral-img {
@@ -93,4 +94,10 @@ img {
 .box p {
   font-size: 1rem;
   font-weight: 500;
+}
+
+.iframe-bar p {
+  background-color: rgb(238, 237, 237);
+  margin: 5px;
+  padding: 20px;
 }
